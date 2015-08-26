@@ -1,5 +1,9 @@
 {
-  "name": "rock-out",
+  "name": "react-es6-webpack-template",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/arianitu/react-es6-webpack-template.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
@@ -9,14 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^5.8.22",
-    "babel-loader": "^5.3.2",
-    "file-loader": "^0.8.4",
-    "react-hot-loader": "^1.2.9",
-    "webpack": "^1.11.0",
-    "webpack-dev-server": "^1.10.1"
+    "webpack": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "file-loader": "*",
+    "react-hot-loader": "*"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "*"
   }
 }
