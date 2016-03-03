@@ -12,7 +12,8 @@ module.exports = {
     
     module: {
         loaders: [
-            { test: /\.js$/, loaders: ['react-hot', 'babel-loader'], exclude: /node_modules/ },
+            { test: /\.js$/, loader: 'react-hot', exclude: /node_modules/ },
+            { test: /\.js$/, loader: 'babel', exclude: /node_modules/, query: { presets: ['react', 'es2015'] } },
             { test: /\.html$/, loader: "file?name=[name].[ext]" },
         ]
     },

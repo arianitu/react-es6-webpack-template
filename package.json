@@ -16,6 +16,8 @@
     "webpack": "*",
     "babel-core": "*",
     "babel-loader": "*",
+    "babel-preset-react": "*",
+    "babel-preset-es2015": "*",
     "file-loader": "*",
     "react-hot-loader": "*"
   },
